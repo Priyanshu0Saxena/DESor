@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homie.css">
+    <script src="https://kit.fontawesome.com/0d0a722358.js" crossorigin="anonymous"></script>
+</head>
+<body class="body">
+
+    <!-- background video -->
+    
+        <video autoplay loop muted plays-inline class="background">
+            <source src="img/bgvid.mp4" type="video/mp4">
+        </video>
+    
+    <!-- Navigation bar -->
+    
+    <nav id="navbar">
+        <a href="home.html" class="home"><i class="fa-sharp fa-solid fa-house"></i>&nbsp;HOME</a>
+        <a href="#" class="navbar">TRAINING</a>
+        <a href="#" class="navbar"><i class="fa-duotone fa-kitchen-set"></i>&nbsp;SKILLS</a>
+        <a href="dashboard.html" target="_blank" class="navbar">DASHBOARD &nbsp;<i class="fa-regular fa-address-card"></i></a>
+        <a href="login.html" class="navbar"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;&nbsp;LOG-OUT</a>
+    </nav>
+    <p id="wline"></p><br>
+    <br><br><br>
+    
+    <!-- Greeting part -->
+    
+     <div class="writing">
+        <h1> <span class="autotype"></span> </h1>
+     </div>
+    
+    
+     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+     <script>
+        var typed=new Typed(".autotype",{
+            strings: ["WELCOME SANJEEV TO DES"],
+            typespeed: 150,
+            backspeed: 150,
+            loop: true
+        })
+     </script><br><br><br><br><br><br>
+    
+    <!-- Course links -->
+    
+    <div class="allcourses">
+        <h1 id="select"><marquee>Here is Your Progress !!</marquee></h1><br><br><br><br><br>
+       <a href="#"><img src="img/fordsa.jpg" width="31%" height="400sp" class="dsa"> </a>
+       <a href="cyberform.html"><img src="img/cyber.jpg" width="31%" height="400sp" class="dsa"> </a>
+       <a href="#"><img src="img/ML.jpg" width="31%" height="400sp" class="dsa"> </a>
+    
+       <h1 class="imgtext">DSA &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Cyber Security &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Machine Learning</h1><br><br><br><br><br>
+       <a href="#"><img src="img/game development.jpg" width="31%" height="400sp" class="dsa"> </a>
+       <a href="#"><img src="img/website.jpg" width="31%" height="400sp" class="dsa"> </a>
+       <a href="#"><img src="img/android.jpg" width="31%" height="400sp" class="dsa"> </a>
+       <h1 class="imgtext2">Game Development &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Web Development &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Application Development</h1>
+    </div>
+    
+    <!-- footer -->
+    <nav class="footer">
+        <p id="cp">Developed by ITGians Copyright @des pvt.ltd. </p>
+    </nav>
+    </body>
+</html>
